@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/stil.css">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="homeHeader" class="container">
+      <button id="b">BAĞÇA ƏLAVƏ ET</button>
+      <img src="images/logo.png"></img>
+      <h4>lorem ejhbfge rhkebg eghebg devrgnbrgeh hjrgfybs dfnvjd jbsdjfs jnsdfdvdgfvw ejfne ejrnfjen jernf </h4>
+      <button id="a"> BAĞÇA TAP</button>
+    </div>
+    <div>
+      <form id="homeForm" class="container">
+        <h1>Sizə ən yaxın və ən uyğun bağçanı tapın</h1>
+        <img src="images/Kepenek.png"></img>
+        <div class="row" id="row">
+          <div class="col-md-2">
+            <select>
+              <option>Şəhər</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <select>
+              <option>Rayon</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <select >
+              <option>Özəl</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <select >
+              <option>Seçənək</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <select>
+              <option>Seçənək</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <input type="submit" value="axtar" id="buttonHome"></input>
+          </div>
+        </div>
+      </form>
+      <div id="homeSlider">
+       <img src="images/laayeru.png"></img>
+        <div class="row"><h2>Son əlavə olunanlar</h2></div>
+          <div id="sliderHome">
+            <div class="slider1" >
+             <div class="slide"><img src="images/bagca.jpg">
+                <div id="a">
+                   <h3>64 Nömrəli bağça</h3>
+                   <p>Nizami</p>
+                </div>
+              </div>
+              <div class="slide"><img src="images/bagca.jpg">
+                <div id="a">
+                   <h3>64 Nömrəli bağça</h3>
+                   <p>Nizami</p>
+                </div>
+              </div>
+              <div class="slide"><img src="images/bagca.jpg">
+                <div id="a">
+                   <h3>64 Nömrəli bağça</h3>
+                   <p>Nizami</p>
+                </div>
+              </div>
+              <div class="slide"><img src="images/bagca.jpg">
+                <div id="a">
+                   <h3>64 Nömrəli bağça</h3>
+                   <p>Nizami</p>
+                </div>
+              </div>
+              <div class="slide"><img src="images/bagca.jpg">
+                <div id="a">
+                   <h3>64 Nömrəli bağça</h3>
+                   <p>Nizami</p>
+                </div>
+              </div>
+              <div class="slide"><img src="images/bagca.jpg">
+                <div id="a">
+                   <h3>64 Nömrəli bağça</h3>
+                   <p>Nizami</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    </div>
+               
+    <div id="footer" class="container">
+        <div id="radiusluadd">
+            <img src="images/logo.png">
+        </div>
+        <div id="list">
+          <ul style="list-style-type:none;">
+            <li><a>Haqqımızda</a></li>
+            <li><a>Qaydalar</a></li>
+            <li><a>Şikayət və təkliflər</a></li>
+            <li><a>Bizimlə əlaqə</a></li>
+            </ul>
+        </div>
+    </div>
+                
+                
+                <script src="js/jquery-1.12.4.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+                <script src="js/jquery.bxslider.min.js"></script>
+                <script>
+                $(document).ready(function(){
+                $('.slider1').bxSlider({
+                slideWidth:260,
+                minSlides: 2,
+                maxSlides: 4,
+                slideMargin: 20
+                });
+                });</script>
+              </body>
+            </html>

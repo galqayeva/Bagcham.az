@@ -1,0 +1,195 @@
+$colorBlue:#215cb5;
+$colorPink:#de85a1;
+$colorLightPink:#ffe6ff;
+$colorMavi:#4da6ff;
+
+#homeHeader{
+	background-image: url("../images/header.jpg");
+	width:100%;
+	font-family:AzAgenda;
+	#b{
+		background-color:$colorPink;
+		margin:5.5% 0% 0% 72%;
+		padding:11px;
+		font-size:18px;
+	    color:white;
+		border:none;}	
+	img{
+		margin:7.5%  0% 0% 36.9%;
+		width:25.7%;}
+	h4{
+		width:72%;
+		margin:2% 13% 0% 13%;
+		color:white;}
+ 	#a{
+		background-color:$colorMavi;
+		margin:11.5% 0% 9% 41%;
+		font-size:18px;
+		padding:19px 50px;
+		color:white;
+		border:none;}
+}
+#homeForm{
+	width:100%;
+	background-color:$colorLightPink;
+	position:relative;
+	font-family:AzAgenda;
+	h1{
+		text-align:center;
+		margin-top:3%;}
+	select,input{
+		width:100%;
+		height:40px;
+		padding:8px;}
+	img{
+		position:absolute; 
+        top:0px;
+        left:0px;
+        width:100%;}
+    #row{
+    	margin-left:13%;
+    	margin-bottom:12%;
+    	margin-top:8%;
+    	padding:2px;
+    	margin-right:-15px;}
+    input{
+    	background-color:$colorMavi;
+    	color:white;
+    	border:none;}
+}
+#homeSlider{
+	background-image:url('../images/usaqlar.png');
+	height:580px;
+	width:100%;
+	position:relative;
+	font-family:AzAgenda;
+	img{
+		width:100%;
+		height:100%;}
+	h2{
+   		position:absolute; 
+   		top:4%;
+    	left:40%;}
+	#sliderHome{
+		position:absolute;
+		top:25%;
+		left:7%;
+	}
+	#a{
+		background-color:#fff;
+		height:40%;
+		width:100%;
+		margin-top:-20px;
+		padding:10px;
+		color:black;}
+}
+#footer{
+	width:100%;
+	height:1.7in;
+	background:$colorBlue;
+	#radiusluadd{
+		background:$colorPink;
+		height:1.7in;
+		width:30%;
+		border-radius:0px 170px 0px 0px;
+		float:left;
+		margin-left:-15px;}
+	img{
+		width:50%;
+		height:30%;
+		margin-left:25%;
+		margin-top:15%;}
+	#list{
+		padding:6.18%;}
+	li{
+		float:left;
+		margin-left:55px;}
+	li a{
+		color:white;
+		font-family:AzAgenda;
+		font-size:18px;
+	}
+}
+#header{
+	background-image: url("../images/header.jpg");
+	width:100%;
+	height:243px;
+	img{
+		width:30%;
+		margin-left:36%;
+		margin-top:4%;}
+}
+#addAdding{
+	h1,h5{
+		margin-top:2%;
+		text-align:center;
+	}
+	form{
+		margin:7% 12%;
+		background:#e6eeff;
+		border:1px solid #b7b795;
+		padding-left:10%;
+    	padding-top:4%;
+    	#formadd{
+			margin:4%;}
+		select{
+			width:50%;
+			height:0.6in;
+			padding:20px;}
+		input{
+			width:70%;
+			height:0.55in;}
+		#submit{
+			background-color:$colorPink;}
+		label{
+			font-size:18px;}
+	}
+}
+
+#aboutRow{
+	padding:5%;
+	select,input{
+		width:15%;
+		height:40px;
+		margin:6px;
+		padding:8px;
+		font-family:AzAgenda;
+	}
+	input{
+		background-color:$colorBlue;
+	}
+}
+
+#aboutInf{
+	width:90%;
+	border:2px solid #a1c4c4;
+	margin:5%;
+	padding:4%;
+	background: #eff5f5;
+	font-family:AzAgenda;
+	#photo{
+		width:80%;
+		border:1px solid #588d8d;
+		background:#629d9d;
+		height:280px;
+		margin:60px;}
+}
+
+#map{
+	margin-bottom:45px;
+	border:2px solid white;
+	#mapInfo{
+		border-bottom:5px solid $colorPink;
+		img{
+			width:100px;
+			height:99px;
+			float:left;
+			margin:16px 25px;}
+		h4,a{
+			margin-top:16px;
+			font-family:AzAgenda;}
+	}
+	#mapMap{
+		margin-left:-15px;
+	     }
+}
