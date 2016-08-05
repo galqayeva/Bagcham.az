@@ -2,6 +2,13 @@ $colorBlue:#215cb5;
 $colorPink:#de85a1;
 $colorLightPink:#ffe6ff;
 $colorMavi:#4da6ff;
+$colorButtonMavi:#4bcbe4;
+
+#son{
+	background-image: url("../images/btn.png");
+	height:7px;
+	width:100%;
+}
 
 #homeHeader{
 	background-image: url("../images/header.jpg");
@@ -9,25 +16,28 @@ $colorMavi:#4da6ff;
 	font-family:AzAgenda;
 	#b{
 		background-color:$colorPink;
-		margin:5.5% 0% 0% 72%;
+		margin:4.8% 0% 0% 72%;
 		padding:11px;
 		font-size:18px;
 	    color:white;
 		border:none;}	
-	img{
-		margin:7.5%  0% 0% 36.9%;
+	#img1{
+		margin:7.1%  0% 0% 36.9%;
 		width:25.7%;}
 	h4{
 		width:72%;
 		margin:2% 13% 0% 13%;
 		color:white;}
  	#a{
-		background-color:$colorMavi;
-		margin:11.5% 0% 9% 41%;
+		background-color:$colorButtonMavi;
+		margin:10.5% 0% 0% 41%;
 		font-size:18px;
 		padding:19px 50px;
 		color:white;
 		border:none;}
+	#img2{
+		margin:4.8% 0% 4% 48%;
+	}
 }
 #homeForm{
 	width:100%;
@@ -38,6 +48,7 @@ $colorMavi:#4da6ff;
 		text-align:center;
 		margin-top:3%;}
 	select,input{
+		margin:4px;
 		width:100%;
 		height:40px;
 		padding:8px;}
@@ -63,6 +74,9 @@ $colorMavi:#4da6ff;
 	width:100%;
 	position:relative;
 	font-family:AzAgenda;
+	span{
+		color:brown;
+	}
 	img{
 		width:100%;
 		height:100%;}

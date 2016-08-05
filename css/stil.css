@@ -1,28 +1,51 @@
+@font-face {
+  font-family: 'AzAgenda';
+
+  src: url('../fonts/AgendBol.otf');
+   src: url('../fonts/AgendLig.otf');
+    src: url('../fonts/AgendMed.otf');
+  }
+
+
+
+
+
+
+
+
+
+#son {
+  background-image: url("../images/btn.png");
+  height: 7px;
+  width: 100%; }
+
 #homeHeader {
   background-image: url("../images/header.jpg");
   width: 100%;
   font-family: AzAgenda; }
   #homeHeader #b {
     background-color: #de85a1;
-    margin: 5.5% 0% 0% 72%;
+    margin: 4.8% 0% 0% 72%;
     padding: 11px;
     font-size: 18px;
     color: white;
     border: none; }
-  #homeHeader img {
-    margin: 7.5%  0% 0% 36.9%;
+  #homeHeader #img1 {
+    margin: 7.1%  0% 0% 36.9%;
     width: 25.7%; }
   #homeHeader h4 {
     width: 72%;
     margin: 2% 13% 0% 13%;
     color: white; }
   #homeHeader #a {
-    background-color: #4da6ff;
-    margin: 11.5% 0% 9% 41%;
+    background-color: #4bcbe4;
+    margin: 10.5% 0% 0% 41%;
     font-size: 18px;
     padding: 19px 50px;
     color: white;
     border: none; }
+  #homeHeader #img2 {
+    margin: 4.8% 0% 4% 48%; }
 
 #homeForm {
   width: 100%;
@@ -33,6 +56,7 @@
     text-align: center;
     margin-top: 3%; }
   #homeForm select, #homeForm input {
+    margin: 4px;
     width: 100%;
     height: 40px;
     padding: 8px; }
@@ -42,7 +66,8 @@
     left: 0px;
     width: 100%; }
   #homeForm #row {
-    margin-left: 13%;
+    text-align:center;
+    /*margin-left: 6%;*/
     margin-bottom: 12%;
     margin-top: 8%;
     padding: 2px;
@@ -58,6 +83,8 @@
   width: 100%;
   position: relative;
   font-family: AzAgenda; }
+  #homeSlider span {
+    color: brown; }
   #homeSlider img {
     width: 100%;
     height: 100%; }
